@@ -3,6 +3,7 @@ Creating an elixir project for docker that communicates through the HackerNews A
 ### Article Link
 https://akoutmos.com/post/broadway-rabbitmq-and-the-rise-of-elixir/
 https://akoutmos.com/post/broadway-rabbitmq-and-the-rise-of-elixir-two/
+https://link.medium.com/RqYhnjEgq3
 ### Author
 Alex Koutmos
 ## Key Takeaways
