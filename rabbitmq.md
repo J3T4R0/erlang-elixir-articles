@@ -4,6 +4,7 @@ Creating an elixir project for docker that communicates through the HackerNews A
 https://akoutmos.com/post/broadway-rabbitmq-and-the-rise-of-elixir/
 https://akoutmos.com/post/broadway-rabbitmq-and-the-rise-of-elixir-two/
 https://link.medium.com/RqYhnjEgq3
+https://shopgun.github.io/graphql-erlang-tutorial/#_setting_up_an_initial_mnesia_schema
 ### Author
 Alex Koutmos
 ## Key Takeaways
