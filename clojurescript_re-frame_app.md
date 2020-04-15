@@ -77,7 +77,7 @@ Forms
                                  :required true}]}]
 ```
 Validations
-```clojurescript
+```clojure
 (re-frame/reg-sub
  :valid-required?
  (fn [db [_ value]]
