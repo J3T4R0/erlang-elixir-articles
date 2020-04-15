@@ -11,7 +11,7 @@ http://www.erlang-factory.com/static/upload/media/1434558446558020erlanguserconf
 * Be smart and use testing
 
 ## Useful Code Snippets
-```erlang
+```elixir
 # start 2 Delta CRDTs
 {:ok, crdt1} = DeltaCrdt.start_link(DeltaCrdt.AWLWWMap)
 {:ok, crdt2} = DeltaCrdt.start_link(DeltaCrdt.AWLWWMap)
