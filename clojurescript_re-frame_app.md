@@ -1,4 +1,5 @@
 ## TL;DR
+An app that reminds you for holidays
 
 ### Article Link
 https://notamonadtutorial.com/holiday-ping-how-we-implemented-our-first-open-source-app-with-erlang-and-clojurescript-fad5b66fc325
@@ -11,7 +12,7 @@ notamonadtutorial
 
 ## Useful Code Snippets
 Navigation
-```clojurescript
+```clojure
 (def panels {:panel1 [panel1]
              :panel2 [panel2]})
 (defn high-level-view 
@@ -24,7 +25,7 @@ Navigation
 
 ```
 Events
-```clojurescript
+```clojure
   (re-frame/reg-event-fx
  :navigate
  (fn [{:keys [db]} [_ new-view]]
@@ -59,7 +60,7 @@ Events
                 :on-success [:channel-list-success]}})
 ```
 Forms
-``clojurescript
+``clojure
 [forms/form-view {:submit-text "Register"
                   :on-submit   [:register-submit]
                   :fields      [{:key      :email
